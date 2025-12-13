@@ -1,0 +1,38 @@
+{
+  "name": "elegant-crimson",
+  "displayName": "Elegant Crimson",
+  "description": "A dark theme reimagined for Visual Studio Code, merging the elegance of deep crimson with warm tones and soft contrast. Designed to provide a comfortable and visually pleasing coding experience.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Daniel Hernández",
+    "email": "daniel.hdez22@hotmail.com"
+  },
+  "icon": "icons/logo.png",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+		"theme",
+		"dark",
+		"elegant",
+		"warm",
+		"crimson"
+	],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Elegant Crimson Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/elegant-crimson.json"
+      }
+    ]
+  },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/DanielHdez22/elegant-crimson.git"
+	},
+  "publisher": "DanielHdez22"
+}
