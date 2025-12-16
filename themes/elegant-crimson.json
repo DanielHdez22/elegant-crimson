@@ -344,7 +344,7 @@
     {
       "name": "Support",
       "scope": "support",
-      "settings": { "foreground": "#FF5D8D", "fontStyle": "italic" }
+      "settings": { "foreground": "#FF5D8D" }
     },
     {      
       "name": "Class Support",
