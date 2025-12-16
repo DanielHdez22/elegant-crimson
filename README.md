@@ -37,7 +37,7 @@ A dark theme reimagined for Visual Studio Code, merging the elegance of deep cri
 * **Extension Name:** `elegant-crimson`
 * **Author:** Daniel Hdez
 * **Publisher:** DanielHdez22
-* **Version:** 1.0.0
+* **Version:** 1.0.2
 * **License:** MIT
 
 ## 📝 Contribution and Support
