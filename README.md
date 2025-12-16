@@ -1,7 +1,7 @@
 # 🎨 Elegant Crimson Theme
 
 <p align="center">
-    <img width="1024" height="512" alt="banner" src="https://github.com/user-attachments/assets/71e08853-6197-4c94-b9ce-8068d3312613" />
+    <img width="1024" height="430" alt="banner" src="https://github.com/user-attachments/assets/258cbf31-d6c2-48a0-860a-1e40c4c36606" />
 </p>
 
 A dark theme reimagined for Visual Studio Code, merging the elegance of deep crimson with warm tones and soft contrast. Designed to provide a comfortable and visually pleasing coding experience.
