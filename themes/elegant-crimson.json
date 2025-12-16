@@ -234,9 +234,14 @@
       "settings": { "foreground": "#D8195F", "fontStyle": "italic" }
     },
     {
-      "name": "Variable Name Entity & Readwrite Other Variable",
-      "scope": ["entity.name.variable", "variable.other.readwrite"],
+      "name": "Variable Name Entity",
+      "scope": "entity.name.variable",
       "settings": { "foreground": "#E06491" }
+    },
+    {
+      "name": "Readwrite Other Variable",
+      "scope": "variable.other.readwrite",
+      "settings": { "foreground": "#EEAF27EA" }
     },
     {
       "name": "Constant Other Variable",
@@ -246,7 +251,7 @@
     {
       "name": "Property Other Variable",
       "scope": "variable.other.property",
-      "settings": { "foreground": "#E9588DF6" }
+      "settings": { "foreground": "#FF5493" }
     },
     {
       "name": "Parameter Variable",
@@ -256,12 +261,12 @@
     {
       "name": "Struct Variable",
       "scope": "variable.struct",
-      "settings": { "foreground": "#E9AC50" }
+      "settings": { "foreground": "#EEAF27EA" }
     },
     {
       "name": "Interface Variable",
       "scope": "variable.interface",
-      "settings": { "foreground": "#E9AC50" }
+      "settings": { "foreground": "#EEAF27EA" }
     },
     {
       "name": "Variable Name Definition Meta",
@@ -271,12 +276,12 @@
     {
       "name": "Quoted/Template String",
       "scope": ["string.quoted", "string.template"],
-      "settings": { "foreground": "#F57DA9F6" }
+      "settings": { "foreground": "#FF89A1" }
     },
     {
       "name": "Regexp String",
       "scope": "string.regexp",
-      "settings": { "foreground": "#FF8FB8F6" }
+      "settings": { "foreground": "#FF89A1F4" }
     },
     {
       "name": "Link Other String",
@@ -296,7 +301,7 @@
     {
       "name": "Entity Name",
       "scope": "entity.name",
-      "settings": { "foreground": "#E9AC50" }
+      "settings": { "foreground": "#EEAF27EA" }
     },
     {
       "name": "Function Name Entity",
@@ -311,17 +316,17 @@
     {
       "name": "Type Name Entity & CSharp Storage Type",
       "scope": ["entity.name.type", "storage.type.cs"],
-      "settings": { "foreground": "#E9AC50" }
+      "settings": { "foreground": "#EEAF27EA" }
     },
     {
       "name": "Inherited Class Entity",
       "scope": "entity.other.inherited-class",
-      "settings": { "foreground": "#E9AC50" }
+      "settings": { "foreground": "#EEAF27EA" }
     },
     {
       "name": "Other Attribute Name Entity",
       "scope": "entity.other.attribute-name",
-      "settings": { "foreground": "#FF8FB8F6", "fontStyle": "bold" }
+      "settings": { "foreground": "#D8195F", "fontStyle": "bold" }
     },
     {
       "name": "ID Attribute Name Entity",
@@ -339,7 +344,12 @@
     {
       "name": "Support",
       "scope": "support",
-      "settings": { "foreground": "#E9AC50" }
+      "settings": { "foreground": "#FF5D8D", "fontStyle": "italic" }
+    },
+    {      
+      "name": "Class Support",
+      "scope": "support.class",
+      "settings": { "foreground": "#EEAF27EA" }
     },
     {
       "name": "Type Support",
@@ -452,7 +462,7 @@
     {
       "name": "Selector Meta",
       "scope": "meta.selector",
-      "settings": { "foreground": "#E9AC50" }
+      "settings": { "foreground": "#EEAF27EA" }
     }
   ]
 }
