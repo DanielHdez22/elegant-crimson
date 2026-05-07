@@ -45,10 +45,22 @@ A dark theme for Visual Studio Code built around a deep crimson palette — bold
 | :--- | :--- |
 | **Extension** | `elegant-crimson` |
 | **Publisher** | `DanielHdez22` |
-| **Version** | `1.0.4` |
+| **Version** | `1.0.5` |
 | **License** | MIT |
 
 ## 📝 Changelog
+
+### 1.0.5
+- Themed breadcrumbs with crimson on active segment
+- Themed context menus and keybinding labels with crimson palette
+- Themed autocomplete widget background and selected item to match crimson palette
+- Themed peek view with crimson dark backgrounds
+- Themed panel titles, minimap selection, sticky scroll hover
+- Added symbol icon colors matching token colors (golden for classes, blue for functions, etc.)
+- Active line number in crimson
+- Activity bar inactive icons in crimson
+- Command Center styled with crimson background and border
+- Disabled semantic highlighting in favor of TextMate rules
 
 ### 1.0.4
 - Added `semanticTokenColors` section to correctly color semantic tokens provided by language servers (Intelephense, Volar) — fixes class names, type aliases, and PHP use statement aliases being rendered in default white
