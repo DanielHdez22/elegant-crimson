@@ -214,12 +214,12 @@
     {
       "name": "Storage",
       "scope": "storage",
-      "settings": { "foreground": "#FF2B59", "fontStyle": "bold" }
+      "settings": { "foreground": "#C792EA", "fontStyle": "bold" }
     },
     {
       "name": "Constant",
       "scope": "constant",
-      "settings": { "foreground": "#FF8FB8F6" }
+      "settings": { "foreground": "#56D0DD" }
     },
     {
       "name": "Escape Character Constant",
@@ -249,7 +249,7 @@
     {
       "name": "Constant Other Variable",
       "scope": "variable.other.constant",
-      "settings": { "foreground": "#FF8FB8F6" }
+      "settings": { "foreground": "#56D0DD" }
     },
     {
       "name": "Property Other Variable",
@@ -327,6 +327,11 @@
       "settings": { "foreground": "#EEAF27EA" }
     },
     {
+      "name": "PHP Use Alias Entity",
+      "scope": "entity.other.alias.php",
+      "settings": { "foreground": "#EEAF27EA" }
+    },
+    {
       "name": "Other Attribute Name Entity",
       "scope": "entity.other.attribute-name",
       "settings": { "foreground": "#D8195F", "fontStyle": "bold" }
@@ -392,12 +397,12 @@
         "meta.brace.square",
         "meta.brace.curly"
       ],
-      "settings": { "foreground": "#D8195F" }
+      "settings": { "foreground": "#9E3A5A" }
     },
     {
       "name": "Separator Punctuation",
       "scope": "punctuation.separator",
-      "settings": { "foreground": "#FF7A95" }
+      "settings": { "foreground": "#9E3A5A" }
     },
     {
       "name": "Tag Definition Punctuation",
