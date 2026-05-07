@@ -45,10 +45,13 @@ A dark theme for Visual Studio Code built around a deep crimson palette — bold
 | :--- | :--- |
 | **Extension** | `elegant-crimson` |
 | **Publisher** | `DanielHdez22` |
-| **Version** | `1.0.3` |
+| **Version** | `1.0.4` |
 | **License** | MIT |
 
 ## 📝 Changelog
+
+### 1.0.4
+- Added `semanticTokenColors` section to correctly color semantic tokens provided by language servers (Intelephense, Volar) — fixes class names, type aliases, and PHP use statement aliases being rendered in default white
 
 ### 1.0.3
 - Differentiated `storage` tokens (`class`, `function`, access modifiers) from control flow keywords — now lavender purple instead of crimson
