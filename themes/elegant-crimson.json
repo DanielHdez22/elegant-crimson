@@ -180,6 +180,18 @@
     "breadcrumbPicker.background": "#232530"
   },
   "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "class": "#EEAF27",
+    "interface": "#EEAF27",
+    "enum": "#EEAF27",
+    "enumMember": "#56D0DD",
+    "struct": "#EEAF27",
+    "type": "#EEAF27",
+    "typeParameter": "#EEAF27",
+    "namespace": "#EEAF27",
+    "function": "#7FB4FF",
+    "method": "#7FB4FF"
+  },
   "tokenColors": [
     {
       "name": "Comment",
