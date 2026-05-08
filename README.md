@@ -45,10 +45,14 @@ A dark theme for Visual Studio Code built around a deep crimson palette — bold
 | :--- | :--- |
 | **Extension** | `elegant-crimson` |
 | **Publisher** | `DanielHdez22` |
-| **Version** | `1.0.5` |
+| **Version** | `1.0.6` |
 | **License** | MIT |
 
 ## 📝 Changelog
+
+### 1.0.6
+- Added golden amber coloring for unrecognized Vue component tags using dot notation (e.g. `<Disclosure.Button>`, `<Transition.Child>`)
+- Added golden amber coloring for PascalCase Vue component tags that share names with native HTML elements (`Button`, `Dialog`, `Form`, `Input`, `Link`, `Menu`, `Progress`, `Table`, `Tbody`, `Td`, `Th`, `Thead`, `Tr`)
 
 ### 1.0.5
 - Themed breadcrumbs with crimson on active segment

@@ -45,7 +45,7 @@
     "activityBar.background": "#101017",
     "activityBar.foreground": "#E90055",
     "activityBar.activeBorder": "#E90055",
-    "activityBar.inactiveForeground": "#FF2E5BCC",
+    "activityBar.inactiveForeground": "#FF2E5B",
     "activityBarBadge.background": "#E90055",
     "activityBarBadge.foreground": "#FFFFFF",
     "sideBar.background": "#101017",
@@ -236,7 +236,7 @@
     "tab.inactiveModifiedBorder": "#FF2E5B80",
     "minimap.selectionHighlight": "#FF2E5B50",
     "editorStickyScroll.background": "#101017",
-    "editorStickyScrollHover.background": "#330013",
+    "editorStickyScrollHover.background": "#330013"
   },
   "semanticHighlighting": false,
   "tokenColors": [
@@ -374,6 +374,30 @@
       "name": "Tag Name Entity",
       "scope": "entity.name.tag",
       "settings": { "foreground": "#FF2B59", "fontStyle": "bold" }
+    },
+    {
+      "name": "Component Tag (unrecognized/custom)",
+      "scope": "meta.tag.other.unrecognized.html.derivative entity.name.tag",
+      "settings": { "foreground": "#EEAF27EA", "fontStyle": "bold" }
+    },
+    {
+      "name": "Component Tag (conflicts with HTML element names)",
+      "scope": [
+        "meta.tag.structure.Button entity.name.tag",
+        "meta.tag.structure.Dialog entity.name.tag",
+        "meta.tag.structure.Form entity.name.tag",
+        "meta.tag.structure.Input entity.name.tag",
+        "meta.tag.structure.Link entity.name.tag",
+        "meta.tag.structure.Menu entity.name.tag",
+        "meta.tag.structure.Progress entity.name.tag",
+        "meta.tag.structure.Table entity.name.tag",
+        "meta.tag.structure.Tbody entity.name.tag",
+        "meta.tag.structure.Td entity.name.tag",
+        "meta.tag.structure.Th entity.name.tag",
+        "meta.tag.structure.Thead entity.name.tag",
+        "meta.tag.structure.Tr entity.name.tag"
+      ],
+      "settings": { "foreground": "#EEAF27EA", "fontStyle": "bold" }
     },
     {
       "name": "Type Name Entity & CSharp Storage Type",
