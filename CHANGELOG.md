@@ -8,6 +8,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release
 
+## [1.0.7]
+
+- Changed Vue/HTML custom component tag color from golden amber to rose pink (`#FF6382`) for better palette coherence
+- Changed string color to soft rose (`#FF8BBC`)
+- Added `italic` style to: readwrite variables, CSS selectors, docstrings, and CSS pseudo-classes/elements
+- Added `bold italic` style to: inherited class names (`extends`), type/interface declarations, and PHP use aliases
+
 ## [1.0.6]
 
 - Added golden amber coloring for unrecognized Vue component tags using dot notation (e.g. `<Disclosure.Button>`, `<Transition.Child>`)
