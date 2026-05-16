@@ -24,9 +24,10 @@ A dark theme for Visual Studio Code built around a deep crimson palette — bold
 | **Storage** | `class` `function` `public` `private` | Lavender purple | `#C792EA` |
 | **Variables** | `$name` `myVar` | Golden amber | `#EEAF27` |
 | **Functions** | `myFunction()` | Sky blue | `#7FB4FF` |
-| **Strings** | `"text"` | Salmon pink | `#FF89A1` |
+| **Strings** | `"text"` | Soft rose | `#FF8BBC` |
 | **Constants** | `true` `false` `null` `42` | Teal cyan | `#56D0DD` |
 | **Type / Class names** | `MyClass` `InvoiceStatus` | Golden amber | `#EEAF27` |
+| **Vue/HTML Component tags** | `<MyButton>` `<UserCard>` | Rose pink | `#FF6382` |
 | **Comments** | `// ...` | Muted blue-gray | `#7A8A9C` |
 | **Punctuation** | `;` `.` `()` `{}` | Muted berry red | `#9E3A5A` |
 | **Primary accent** | UI elements | Bright crimson | `#FF2E5B` |
@@ -45,10 +46,16 @@ A dark theme for Visual Studio Code built around a deep crimson palette — bold
 | :--- | :--- |
 | **Extension** | `elegant-crimson` |
 | **Publisher** | `DanielHdez22` |
-| **Version** | `1.0.6` |
+| **Version** | `1.0.7` |
 | **License** | MIT |
 
 ## 📝 Changelog
+
+### 1.0.7
+- Changed Vue/HTML custom component tag color from golden amber to rose pink (`#FF6382`) for better palette coherence
+- Changed string color to soft rose (`#FF8BBC`)
+- Added `italic` style to: readwrite variables, CSS selectors, docstrings, and CSS pseudo-classes/elements
+- Added `bold italic` style to: inherited class names (`extends`), type/interface declarations, and PHP use aliases
 
 ### 1.0.6
 - Added golden amber coloring for unrecognized Vue component tags using dot notation (e.g. `<Disclosure.Button>`, `<Transition.Child>`)
