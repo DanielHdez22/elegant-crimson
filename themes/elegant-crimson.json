@@ -248,12 +248,12 @@
     {
       "name": "Keyword",
       "scope": "keyword",
-      "settings": { "foreground": "#FF2B59", "fontStyle": "bold" }
+      "settings": { "foreground": "#FF006ACC", "fontStyle": "bold" }
     },
     {
       "name": "Operator Keyword",
       "scope": "keyword.operator",
-      "settings": { "foreground": "#FF7A95" }
+      "settings": { "foreground": "#D8195F" }
     },
     {
       "name": "New/Expression/Logical/Delete Operator Keywords",
@@ -303,7 +303,7 @@
     {
       "name": "Readwrite Other Variable",
       "scope": "variable.other.readwrite",
-      "settings": { "foreground": "#EEAF27EA" }
+      "settings": { "foreground": "#EEAF27EA", "fontStyle": "italic" }
     },
     {
       "name": "Constant Other Variable",
@@ -338,7 +338,7 @@
     {
       "name": "Quoted/Template String",
       "scope": ["string.quoted", "string.template"],
-      "settings": { "foreground": "#FF89A1" }
+      "settings": { "foreground": "#FF8BBC" }
     },
     {
       "name": "Regexp String",
@@ -353,7 +353,7 @@
     {
       "name": "Docstring Quoted String",
       "scope": "string.quoted.docstring",
-      "settings": { "foreground": "#76CED8" }
+      "settings": { "foreground": "#76CED8", "fontStyle": "italic" }
     },
     {
       "name": "Embedded Template String Meta",
@@ -378,7 +378,7 @@
     {
       "name": "Component Tag (unrecognized/custom)",
       "scope": "meta.tag.other.unrecognized.html.derivative entity.name.tag",
-      "settings": { "foreground": "#EEAF27EA", "fontStyle": "bold" }
+      "settings": { "foreground": "#FF6382", "fontStyle": "bold" }
     },
     {
       "name": "Component Tag (conflicts with HTML element names)",
@@ -397,22 +397,22 @@
         "meta.tag.structure.Thead entity.name.tag",
         "meta.tag.structure.Tr entity.name.tag"
       ],
-      "settings": { "foreground": "#EEAF27EA", "fontStyle": "bold" }
+      "settings": { "foreground": "#FF6382", "fontStyle": "bold" }
     },
     {
       "name": "Type Name Entity & CSharp Storage Type",
       "scope": ["entity.name.type","storage.type.cs"],
-      "settings": { "foreground": "#EEAF27EA" }
+      "settings": { "foreground": "#EEAF27EA", "fontStyle": "bold italic" }
     },
     {
       "name": "Inherited Class Entity",
       "scope": "entity.other.inherited-class",
-      "settings": { "foreground": "#EEAF27EA" }
+      "settings": { "foreground": "#EEAF27EA", "fontStyle": "bold italic" }
     },
     {
       "name": "PHP Use Alias Entity",
       "scope": "entity.other.alias.php",
-      "settings": { "foreground": "#EEAF27EA" }
+      "settings": { "foreground": "#EEAF27EA", "fontStyle": "bold italic" }
     },
     {
       "name": "Other Attribute Name Entity",
@@ -427,7 +427,7 @@
     {
       "name": "Pseudo-element/class Attribute Name Entity",
       "scope": ["entity.other.attribute-name.pseudo-element", "entity.other.attribute-name.pseudo-class"],
-      "settings": { "foreground": "#FF8FB8F6" }
+      "settings": { "foreground": "#FF8FB8F6", "fontStyle": "italic" }
     },
     {
       "name": "Support",
@@ -437,7 +437,7 @@
     {
       "name": "Class Support",
       "scope": "support.class",
-      "settings": { "foreground": "#EEAF27EA" }
+      "settings": { "foreground": "#EEAF27EA", "fontStyle": "bold" }
     },
     {
       "name": "Type Support",
@@ -457,7 +457,7 @@
     {
       "name": "Property Name Type Support & Object Literal Key Meta",
       "scope": ["support.type.property-name", "meta.object-literal.key"],
-      "settings": { "foreground": "#9FCBFF" }
+      "settings": { "foreground": "#FF417A" }
     },
     {
       "name": "CSS Property Name Type Support",
@@ -485,7 +485,7 @@
     {
       "name": "Separator Punctuation",
       "scope": "punctuation.separator",
-      "settings": { "foreground": "#FF7A95" }
+      "settings": { "foreground": "#D8195F" }
     },
     {
       "name": "Tag Definition Punctuation",
@@ -500,7 +500,7 @@
     {
       "name": "Embedded Section Punctuation",
       "scope": "punctuation.section.embedded",
-      "settings": { "foreground": "#FF2B59" }
+      "settings": { "foreground": "#D8195F" }
     },
     {
       "name": "List Definition Punctuation",
@@ -545,7 +545,7 @@
     {
       "name": "Selector Meta",
       "scope": "meta.selector",
-      "settings": { "foreground": "#EEAF27EA" }
+      "settings": { "foreground": "#EEAF27EA", "fontStyle": "italic" }
     }
   ]
 }
